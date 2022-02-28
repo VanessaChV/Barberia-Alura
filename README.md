@@ -11,4 +11,4 @@ El mismo consta de 3 partes:
 - Parte 3: trabajando con formularios y tablas.
 
 Gracias por tu tiempo, 
-seguimos en contacto?
+y todo feedback es más que bienvenido!
