@@ -32,6 +32,7 @@
         <main>
             
             <form>
+
                 <label for="nombreapellido">Nombre y Apellido</label>
                 <input type="text" id="nombreapellido">
 
@@ -44,7 +45,24 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea cols="70" rows="10" id="mensaje"></textarea>
                 
+                <div>
+
+                    <p>¿Cómo te gustaría que te contacte?</p>
+
+                    <label for="radio-mail">Mail</label>
+                    <input type="radio" name="contacto" value="mail" id="radio-mail">
+
+                    <label for="radio-telefono">Teléfono</label>
+                    <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+
+                    <label for="radio-wspp">Wspp</label>
+                    <input type="radio" name="contacto" value="wspp" id="radio-wspp">
+                </div>
+
+                <label><input type="checkbox">¿Te gustaría recibir novedades de Barbería Alura?</label>
+
                 <input type="submit" value="Enviar">
+                
             </form>
 
         </main>
