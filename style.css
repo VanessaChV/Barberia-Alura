@@ -99,9 +99,17 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.inputs-radio {
+    display: block;
+    font-size: 20px;
+    font-weight: lighter;
     margin: 0 0 10px;
 }
 
