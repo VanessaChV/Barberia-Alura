@@ -4,11 +4,12 @@ Soy Vanessa y en esta oportunidad te quiero compartir el proceso de la creación
 
 Es parte del desarrollo del curso HTML5 y CSS3 que estoy realizando junto a Oracle y LATAM Alura.
 
-El mismo consta de 3 partes:
+El mismo consta de 4 partes:
 
 - Parte 1: estructura básica de un archivo HTML, definición de elementos usando CSS.
 - Parte 2: posicionamiento, listas y navegación.
 - Parte 3: trabajando con formularios y tablas.
+- Parte 4: CSS avanzado.
 
 Gracias por tu tiempo, 
 y todo feedback es más que bienvenido!
