@@ -48,19 +48,20 @@ nav a:hover{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 4.5em 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 2px solid #bdbbbb;
+    box-shadow: 10px 10px 50px 1px #a5a5a5;
     border-radius: 10px;
 }
 
 .productos li:hover {
-    border-color: #c78c19;
+    border-color: #4e4e4e;
 }
 
 .productos li:active {
-    border-color: #088c19;
+    border-color: #f39303;
 }
 
 .productos h2 {
@@ -155,7 +156,7 @@ td, th {
     padding: 8px 16px;
 }
 
-/*CSS home */
+/*CSS: HOME */
 
 .banner {
     width: 100%;
@@ -270,3 +271,10 @@ td, th {
     }
     
 }
+
+/*CSS: PRODUCTOS */
+
+main {
+    background: #fefefe;
+}
+
