@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover{
-    color: #c78c19;
+    color: #4e4e4e;
     text-decoration: underline;
 }
 
@@ -95,14 +95,19 @@ footer {
 }
 
 form {
-    margin: 40px 0;
+    margin: 40px 17%;
+}
+
+form legend {
+    margin: 2em;
+    padding-top: 20px;
 }
 
 form label, form legend {
     display: block;
     font-size: 20px;
     font-weight: bold;
-    margin: 0 0 10px;
+    margin: 10px 0 10px;
 }
 
 .inputs-radio {
@@ -113,23 +118,32 @@ form label, form legend {
 }
 
 .input-padron {
+    width: 50%;
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #bdbbbb;
+    box-shadow: 10px 10px 30px 5px #cbcbcc;
+}
+
+.input-padron:hover {
+    border: 2px solid #686565;
+
 }
 
 .checkbox {
     margin:20px 0;
+    padding-top: 20px;
 }
 
 .enviar {
-    width: 40%;
+    width: 56%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background: orange;
+    background: #686565;
     border: none;
     border-radius: 5px;
     transition: 1s all;
@@ -137,12 +151,12 @@ form label, form legend {
 }
 
 .enviar:hover {
-    background: darkorange;
+    background: rgb(70, 69, 69);
     transform: scale(1.2);
 }
 
 table {
-    margin: 40px 40px;
+    margin: 40px 230px;
 }
 
 thead {
